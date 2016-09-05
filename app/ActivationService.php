@@ -5,7 +5,7 @@ namespace App;
 
 use Illuminate\Mail\Mailer;
 use Illuminate\Mail\Message;
-use App\ActivationRepository;
+
 
 class ActivationService
 {

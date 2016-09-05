@@ -19,7 +19,7 @@ return [
         'secret' => env('MAILGUN_SECRET'),
     ],
     'mandrill' => [
-        'secret' => 'pXcm5Hi09EZ4Bd3FeqzsiA',
+        'secret' => env('MANDRILL_SECRET'),
     ],
 
     'ses' => [
