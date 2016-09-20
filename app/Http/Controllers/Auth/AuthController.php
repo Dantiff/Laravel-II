@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers;
 
 use App\User;
 use Validator;
@@ -38,7 +38,7 @@ class AuthController extends Controller
     /**
      * Create a new authentication controller instance.
      *
-     * @return void
+     *
      */
     public function __construct(ActivationService $activationService)
     {
@@ -113,6 +113,13 @@ class AuthController extends Controller
             return redirect($this->redirectPath());
         }
         abort(404);
+    }
+
+    public function logIn()
+    {
+
+        return redirect($this->redirectPath());
+
     }
 
 
